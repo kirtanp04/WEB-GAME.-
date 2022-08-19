@@ -10,7 +10,7 @@ const background=new Sprite({
         x:0,
         y:0
     },
-    imageSrc:"./img/background.jpeg"  
+    imageSrc:"background.jpeg"  
 })
 
 const shop=new Sprite({
@@ -18,7 +18,7 @@ const shop=new Sprite({
         x:600,
         y:128
     },
-    imageSrc:'./img/shop_anim.png',
+    imageSrc:'shop_anim.png',
     scale:2.75,
     framemax:6
 })
@@ -37,7 +37,7 @@ offset:{
     x:0,
     y:0
 },
-imageSrc:'./img/Sprite/idle.png',
+imageSrc:'idle.png',
 framemax:8,
 scale:2.5,
 offset:{
@@ -46,31 +46,31 @@ offset:{
 },
 sprites:{
     idle:{
-imageSrc:'./img/Sprite/idle.png',
+imageSrc:'idle.png',
 framemax:8,
     },
     run:{
-        imageSrc:'./img/Sprite/Run.png',
+        imageSrc:'Run.png',
         framemax:8,
             },
             jump:{
-                imageSrc:'./img/Sprite/jump.png',
+                imageSrc:'jump.png',
                 framemax:2,
                     },
                     fall:{
-                        imageSrc:'./img/Sprite/Fall.png',
+                        imageSrc:'Fall.png',
                         framemax:2,
                             },
       attack1:{
-              imageSrc:'./img/Sprite/Attack1.png',
+              imageSrc:'Attack1.png',
              framemax:6
              },
              takehit:{
-                imageSrc:'./img/Sprite/Take Hit - white silhouette.png',
+                imageSrc:'Take Hit - white silhouette.png',
                framemax:4
                },
                death:{
-                imageSrc:'./img/Sprite/Death.png',
+                imageSrc:'Death.png',
                 framemax:6
                }
 
@@ -102,7 +102,7 @@ offset:{
     x:-50,
     y:0
 },
-imageSrc:'./img/Sprites/idle.png',
+imageSrc:'idle.png',
 framemax:4,
 scale:2.5,
 offset:{
@@ -111,31 +111,31 @@ offset:{
 },
 sprites:{
     idle:{
-imageSrc:'./img/Sprites/idle.png',
+imageSrc:'idle.png',
 framemax:4
     },
     run:{
-        imageSrc:'./img/Sprites/Run.png',
+        imageSrc:'Run.png',
         framemax:8
             },
             jump:{
-                imageSrc:'./img/Sprites/jump.png',
+                imageSrc:'jump.png',
                 framemax:2
                     },
                     fall:{
-                        imageSrc:'./img/Sprites/Fall.png',
+                        imageSrc:'Fall.png',
                         framemax:2
                             },
                             attack1:{
-                                imageSrc:'./img/Sprites/Attack1.png',
+                                imageSrc:'Attack1.png',
                                 framemax:4
                                     },
                                     takehit:{
-                                        imageSrc:'./img/Sprites/Take hit.png',
+                                        imageSrc:'Take hit.png',
                                         framemax:3
                                     },
                                     death:{
-                                        imageSrc:'./img/Sprites/Death.png',
+                                        imageSrc:'Death.png',
                                         framemax:7
                                        }
 
